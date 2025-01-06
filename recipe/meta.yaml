@@ -1,5 +1,5 @@
 {% set name = "skimpy" %}
-{% set version = "0.0.16" %}
+{% set version = "0.0.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skimpy-{{ version }}.tar.gz
-  sha256: 38628274e51e633e05782287e3d4579705c4f9a65d9f59b2fcc5da5279e1e914
+  sha256: 703f9881bb4d184aae8cd56286c10bc2512909cf86bb0d9ff27fb6e24dc7f54b
 
 build:
   noarch: python
@@ -44,9 +44,9 @@ test:
 about:
   home: https://github.com/aeturrell/skimpy
   doc_url: https://aeturrell.github.io/skimpy/
-  summary: Light weight tool that provides summary statistics about variables in data frames within the console. 
+  summary: Light weight tool that provides summary statistics about variables in data frames within the console.
   license: MIT
-  license_file: LICENSE.md
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
