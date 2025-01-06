@@ -46,7 +46,7 @@ about:
   doc_url: https://aeturrell.github.io/skimpy/
   summary: Light weight tool that provides summary statistics about variables in data frames within the console.
   license: MIT
-  license_file: LICENSE.md
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
