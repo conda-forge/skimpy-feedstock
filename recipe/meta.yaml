@@ -1,5 +1,5 @@
 {% set name = "skimpy" %}
-{% set version = "0.0.18" %}
+{% set version = "0.0.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skimpy-{{ version }}.tar.gz
-  sha256: 39c031624ce0e9bbbf63aaa1201987c30ad5010ae1751dcf7669c059e6b89de5
+  sha256: d9d39ecb9b4d6fcd9d226d8720f7b074f8f7031a17b0777c29c0562bb8c18ae6
 
 build:
   noarch: python
