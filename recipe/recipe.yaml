@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: skimpy
-  version: "0.0.20"
+  version: "0.0.21"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/skimpy-${{ version }}.tar.gz
-  sha256: 95891fbc1e206a8659813d3b772c0af7fefb0f0e9b0d78e5726cf4d03296829e
+  sha256: 1240ed2c592d19404ee9ee976ec0ec1b6dacd3e6c6a4aa34b60de98790bc2503
 
 build:
   number: 0
